@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 16px;
+    background-color: #5e3434;
+    line-height: 1.1;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.header {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.form form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 12px #000;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.form label {
+    font-size: 1.2rem;
+    width: 150px;
+}
+
+.form input {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 12px #000;
+}
+
+.form button {
+    width: 150px;
+    height: 40px;
+    background: transparent;
+    box-shadow: 0 0 12px #000;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    border-radius: 5px;
+    box-shadow: 0 0 12px #000;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    padding: 20px;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+
+.active {
+    background: #2321b4;
+}
+
+.form-inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.error-msg {
+    color: tomato;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    white-space: nowrap;
+    font-size: 0.9rem;
+
+}
+
+.input-error {
+    position: relative;
+}
+
+.form h1{
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
